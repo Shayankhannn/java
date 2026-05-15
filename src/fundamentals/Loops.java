@@ -16,6 +16,15 @@ public class Loops {
         }
         System.out.println(reversed);
 
+        if (reverseString.equals(reversed))
+        {
+            System.out.println("the string is palindrome :" + reverseString);
+        }
+        else{
+            System.out.println("the string is not palindrome :" + reverseString);
+
+        }
+
     }
 
 
