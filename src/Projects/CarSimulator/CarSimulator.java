@@ -1,4 +1,4 @@
-package fundamentals;
+package Projects.CarSimulator;
 
 import java.util.Scanner;
 public class CarSimulator {
@@ -98,3 +98,4 @@ public class CarSimulator {
     }
 }
 
+// todo : fix option 3 outputs accelerqate and brake is not working as expected
