@@ -118,7 +118,7 @@ public class UserInput {
                 isInvalidInput = false;
             } else {
                 // Display a message asking the user to input a valid value, in case of invalid user input
-                System.out.println("Please enter a valid weight");
+                System.out.println("Please enter a valid height");
                 // Set the height to 0
                 height = 0;
             }
