@@ -34,7 +34,7 @@ public class CookingChallenge {
     public static void greetGuest(String name,String timeOfDay)
     {
 
-            System.out.println("hi " + name + ", Good" + timeOfDay );
+            System.out.println("hi " + name + ", Good " + timeOfDay );
 //        if (timeOfDay.equalsIgnoreCase("morning"))
 //        {
 //            System.out.println("hi " + name + ", Good Morning" );
