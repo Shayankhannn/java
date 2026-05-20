@@ -8,6 +8,11 @@ class SendButtonClass extends AbstractButtonClass implements ButtonPress {
     public void buttonPress() {
         System.out.println("Sending" + this.message + " to "+ this.sendTo);
     }
+    @Override
+    public void onButtonHover() {
+        System.out.println("send button was hovered");
+
+    }
     public void setSendTo(String sendTo){
         this.sendTo=sendTo;
     }

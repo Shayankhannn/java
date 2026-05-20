@@ -7,5 +7,10 @@ public class Main {
         sendButton.setSendTo("abc@sfds");
         sendButton.setMessage("hello world");
         sendButton.buttonPress();
+        ForwardButtonClass forwardButton = new ForwardButtonClass();
+        forwardButton.setCaption("forward");
+        forwardButton.setForwardTo("fdasfd@fvrw");
+        forwardButton.setMessage("testing hello");
+        forwardButton.buttonPress();
     }
 }
