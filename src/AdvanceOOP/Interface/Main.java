@@ -7,5 +7,7 @@ public class Main {
         player.pause();
         player.increase(50);
         player.decrease(30);
+        player.forward();
+        player.backward();
     }
 }
