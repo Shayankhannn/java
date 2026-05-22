@@ -5,6 +5,7 @@ import java.io.IOException;
 public class TryWithesources {
     public static void main(String[] args){
         // try-with automatically close resources after code is executed
+        // automatic cleanup resource
         try (FileInputStream fis = new FileInputStream("providefilename.txt")){
         int content;
         while ((content = fis.read()) != -1){
