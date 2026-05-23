@@ -1,0 +1,30 @@
+lorem ipsumm dolor suit is a dummy tex that hepl programmer ad
+d dummy text in
+the program
+
+The FileInputStream class provides several methods to handle reading the data, which is done in bytes (the basic units of data in a file):
+
+read(): Reads a single byte from the input stream.
+
+readAllBytes(): Reads all remaining bytes from the input stream at once, blocking until the operation is complete or an exception occurs.
+
+readNBytes(int n): Reads up to a specified number of bytes from the input stream, allowing you to control how much data you read at a time.
+
+You can determine the number of bytes in a file by checking the file's size, and if the number of bytes being read varies, you can use read() or readNBytes(int n) to process the file's contents gradually.
+
+You can read files using BufferedReader and FileReader, which are ideal for text files. The key difference is that BufferedReader’s read() method returns an integer representing the Unicode value of a character, rather than a byte. This method is useful for reading character-by-character, where each integer corresponds to a specific character.
+
+BufferedReader: Ideal for reading text, character-by-character or line-by-line. The integer return type helps detect the end of the file with -1.
+
+FileInputStream: Use this for binary data, as it reads bytes instead of characters.
+
+
+Tip
+
+If you need to append data to an existing file, both the FileOutputStream and FileWriter classes provide overloaded constructors that accept a second boolean argument. If this argument is ‘true’, data will be appended to the end of the file instead of overwriting it.
+
+FileOutputStream(File file, boolean append)
+
+FileWriter(File file, boolean append)
+
+These constructors are helpful when you want to add new data to an existing file without losing the previous content. In upcoming lessons, you'll have the opportunity to practice and learn how to use these "append" methods to write to files without overwriting the existing data.
