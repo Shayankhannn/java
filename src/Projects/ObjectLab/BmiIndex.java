@@ -20,7 +20,7 @@ public class BmiIndex {
 
         // Please implement the calculateBmiImperial() method to take in weight and height to calculate and return the BMI value in the Imperial system
         public double calculateBmiImperial(double heightInInches,double weightInPounds) {
-            return
+            return;
         }
 
         // Please implement the calculateBmiMetric() method to take in weight and height to calculate and return the BMI value in the Metric system
